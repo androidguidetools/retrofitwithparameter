@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:elevation="5dp"
+    android:layout_margin="5dp"
+    android:layout_height="80dp">
+
+    <LinearLayout
+        android:id="@+id/llTop"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="78dp">
+
+        <ImageView
+            android:src="@drawable/images1"
+            android:id="@+id/imgFruit"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:layout_width="70dp"
+            android:layout_height="70dp" />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/txtFruitName"
+            android:textSize="20sp"
+            android:text="Fruit"
+            android:layout_width="180dp"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:textSize="20sp"
+            android:text="52"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/txtFruitCalaries"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
